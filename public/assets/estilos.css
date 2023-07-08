@@ -1,0 +1,30 @@
+.colorB {
+        
+    background:  #8AC53F;
+    }
+    .colorB2 {
+        
+        background:  #F7941D;
+        }
+
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+    .auth.login-bg {
+        /* background: url("../imagenes/login_bg.jpg");
+        background-size: cover;*/
+        background-color: rgba(127, 255, 212, 0.979); 
+    }
+
+    .fondo{
+            background: #841d8d;
+        }
