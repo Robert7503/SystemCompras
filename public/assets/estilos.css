@@ -1,10 +1,11 @@
 .colorB {
         
-    background:  #8AC53F;
+    background:  #0e42cf;
+    
     }
     .colorB2 {
         
-        background:  #F7941D;
+        background:  #0a9db0;
         }
 
     @media (min-width: 768px) {
@@ -20,11 +21,11 @@
     }
 
     .auth.login-bg {
-        /* background: url("../imagenes/login_bg.jpg");
-        background-size: cover;*/
-        background-color: rgba(127, 255, 212, 0.979); 
+        background: url("../imagenes/login_bg.jpg");
+        background-size: cover;
+        
     }
 
     .fondo{
-            background: #841d8d;
+            background: #5e35ce;
         }

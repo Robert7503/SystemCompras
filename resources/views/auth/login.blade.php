@@ -12,7 +12,7 @@
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
     <link rel="stylesheet" href="{{ asset('assets/estilos.css') }}">
-    <link rel="icon" href="{{ asset('imagenes/login.png')}}" />
+    <link rel="icon" href="{{ asset('imagenes/login_bg.jpg')}}" />
     <link rel="stylesheet" href="{{ asset('assets/mdi/css/materialdesignicons.min.css')}}">
 
 </head>
@@ -21,7 +21,7 @@
     
   <section class= "content-wrapper full-page-wrapper d-flex align-items-center auth login-bg">
     <div class="container py-5 h-100">
-      <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="row d-flex justify-content-left align-items-center h-100">
         <div class="col-xl-5">
           <div class="card rounded-3 text-black">
             <div class="row g-0 fondo">
@@ -29,8 +29,8 @@
                 <div class="card-body p-md-6 mx-md-5 fondo">
   
                   <div class="text-center">
-                    <img src="{{ asset('imagenes/4.png') }}"
-                      style="width: 300px;" alt="logo">
+                    <img src="{{ asset('imagenes/logo.png') }}"
+                      style="width: 150px;" alt="logo">
                     
                   </div>
   
@@ -79,7 +79,7 @@
 
                     <div class="d-grid gap-2">
                         <div class="col-md-8 offset-md-2">
-                            <button type="submit" class="btn btn-primary btn-block fa-lg colorB mb-3">
+                            <button type="submit" class="btn btn-primary btn-block fa-lg colorB2 mb-3">
                                 {{ __('Ingresar') }}
                             </button>
 
